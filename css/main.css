@@ -155,7 +155,7 @@ img {
 /* INTRO */
 .intro {
     background-image: url(../img/intro-bg.png);
-    background-position: calc(50% + 375px) bottom;
+    background-position: calc(50% + 520px) bottom;
     background-repeat: no-repeat;
     border-bottom: 2px solid #ddd;
     padding-bottom: 185px;
@@ -279,11 +279,13 @@ img {
     height: 3px;
     background-color:var(--primary);
     margin-right: 10px;
-    transition: all 0.6 ease-in-out; /*TODO:not working*/
+   
 }
 
 .learn-more:hover::before{
     width:60px;
+    transition: width 0.3s ease; 
+
 }
 
 /* PROMO */
